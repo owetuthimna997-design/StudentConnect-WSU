@@ -1,0 +1,142 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF2FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:background="#1746A2"
+            android:padding="24dp"
+            android:layout_marginBottom="28dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STUDENTCONNECT"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.03" />
+
+            <TextView
+                android:id="@+id/txtWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome, Student!"
+                android:textColor="#FFFFFF"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your campus, connected."
+                android:textColor="#DCE8FF"
+                android:textSize="15sp"
+                android:layout_marginTop="6dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What do you need today?"
+            android:textColor="#1746A2"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose a student service below."
+            android:textColor="#596579"
+            android:textSize="15sp"
+            android:layout_marginBottom="18dp" />
+
+        <Button
+            android:id="@+id/btnAcademicSupport"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ACADEMIC SUPPORT"
+            android:textColor="#1746A2"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="3dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnAnnouncements"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ANNOUNCEMENTS"
+            android:textColor="#1746A2"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="3dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnContacts"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="IMPORTANT CONTACTS"
+            android:textColor="#1746A2"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="3dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="REQUEST HELP"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:backgroundTint="#1746A2"
+            android:elevation="3dp"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnViewRequests"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="VIEW SAVED REQUESTS"
+            android:textColor="#1746A2"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="3dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student support, all in one place."
+            android:textColor="#52709F"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

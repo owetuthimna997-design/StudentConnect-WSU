@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "68158572424",
+    "project_id": "studentconnect-ec68a",
+    "storage_bucket": "studentconnect-ec68a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68158572424:android:01a0310d1c1f8cf0ff9c3d",
+        "android_client_info": {
+          "package_name": "com.example.studentconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2kg3Fu8JSzJrlHiNJijmHcBoWBFhFbYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

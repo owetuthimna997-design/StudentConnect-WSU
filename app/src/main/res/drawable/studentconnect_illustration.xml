@@ -1,0 +1,73 @@
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="180dp"
+    android:viewportWidth="240"
+    android:viewportHeight="180">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#EAF2FF"
+        android:pathData="M20,10 L220,10 A10,10 0,0 1,230 20 L230,160 A10,10 0,0 1,220 170 L20,170 A10,10 0,0 1,10 160 L10,20 A10,10 0,0 1,20 10 Z" />
+
+    <!-- Decorative circles -->
+    <path
+        android:fillColor="#C7D9FA"
+        android:pathData="M35,35 A9,9 0,1 0,53 35 A9,9 0,1 0,35 35" />
+
+    <path
+        android:fillColor="#B6D0F8"
+        android:pathData="M190,130 A7,7 0,1 0,204 130 A7,7 0,1 0,190 130" />
+
+    <!-- Books -->
+    <path
+        android:fillColor="#1746A2"
+        android:pathData="M48,118 L112,118 L112,143 L48,143 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,123 L106,123 L106,137 L54,137 Z" />
+
+    <path
+        android:fillColor="#5275B8"
+        android:pathData="M112,118 L177,118 L177,143 L112,143 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M118,123 L171,123 L171,137 L118,137 Z" />
+
+    <!-- Graduation cap -->
+    <path
+        android:fillColor="#1746A2"
+        android:pathData="M64,62 L120,38 L176,62 L120,86 Z" />
+
+    <path
+        android:fillColor="#5275B8"
+        android:pathData="M85,72 L85,91 Q120,110 155,91 L155,72 L120,88 Z" />
+
+    <path
+        android:strokeColor="#D9A441"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M176,62 L176,91" />
+
+    <path
+        android:fillColor="#D9A441"
+        android:pathData="M171,91 L181,91 L176,100 Z" />
+
+    <!-- Student figure -->
+    <path
+        android:fillColor="#F0B98D"
+        android:pathData="M108,94 A12,12 0,1 0,132 94 A12,12 0,1 0,108 94" />
+
+    <path
+        android:fillColor="#1746A2"
+        android:pathData="M96,111 Q120,99 144,111 L150,118 L90,118 Z" />
+
+    <!-- Book details -->
+    <path
+        android:strokeColor="#D9A441"
+        android:strokeWidth="2"
+        android:pathData="M120,124 L120,137" />
+
+</vector>
